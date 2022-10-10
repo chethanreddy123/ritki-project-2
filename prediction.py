@@ -11,7 +11,7 @@ def app3():
     st.subheader("Out of Stock Forecasting")
     st.caption("Forecasting out of stock to improve future stock planning")
 
-    df = pd.read_excel('Inputs\Preprocessed_files\OOS.xlsx')
+    df = pd.read_excel('OOS.xlsx')
     st.write(df)
     data = df.copy()
 
